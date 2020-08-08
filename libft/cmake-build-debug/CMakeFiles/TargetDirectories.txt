@@ -1,0 +1,3 @@
+C:/Users/mnyas/Desktop/libft/cmake-build-debug/CMakeFiles/libft.dir
+C:/Users/mnyas/Desktop/libft/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mnyas/Desktop/libft/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ft_printf"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/maria/ft_printf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/maria/ft_printf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/maria/ft_printf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_printf">
+				<Option output="/home/maria/ft_printf/cmake-build-debug/ft_printf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/maria/ft_printf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/maria/ft_printf/includes"/>
+					<Add directory="/home/maria/ft_printf/libft"/>
+					<Add directory="/home/maria/ft_printf/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_printf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_printf/fast">
+				<Option output="/home/maria/ft_printf/cmake-build-debug/ft_printf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/maria/ft_printf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/maria/ft_printf/includes"/>
+					<Add directory="/home/maria/ft_printf/libft"/>
+					<Add directory="/home/maria/ft_printf/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_printf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/maria/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/maria/ft_printf/includes/ft_printf.h">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_atoi.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_bzero.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_clear.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_cleararr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_countwords.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_getlen.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_getword.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_isalnum.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_isalpha.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_isascii.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_isdigit.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_isprint.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_itoa.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_lstadd.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_lstdel.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_lstdelone.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_lstiter.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_lstmap.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_lstnew.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_memalloc.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_memccpy.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_memchr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_memcmp.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_memcpy.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_memdel.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_memmove.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_memset.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_putchar.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_putchar_fd.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_putendl.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_putendl_fd.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_putnbr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_putnbr_fd.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_putstr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_putstr_fd.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strcat.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strchr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strclr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strcmp.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strcpy.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strdel.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strdup.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strequ.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_striter.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_striteri.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strjoin.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strlcat.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strlen.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strmap.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strmapi.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strncat.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strncmp.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strncpy.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strnequ.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strnew.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strnstr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strrchr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strsplit.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strstr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strsub.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_strtrim.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_tolower.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/ft_toupper.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/get_next_line.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/libft/libft.h">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/src/check.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/src/display.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/src/floats.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/src/ft_printf.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/src/numbers.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/src/print.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/src/spec.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/src/total.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/src/type_x.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/src/types_douf.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/src/types_scp.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/src/utils.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/home/maria/ft_printf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
